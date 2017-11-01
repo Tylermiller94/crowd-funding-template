@@ -9,11 +9,15 @@ import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { ClarityModule } from "clarity-angular";
+import { ProjectListComponent } from './project-list/project-list.component';
+import { WelcomeComponent } from './welcome/welcome.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ProjectListComponent,
+    WelcomeComponent
   ],
   imports: [
     BrowserModule,
