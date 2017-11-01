@@ -1,0 +1,20 @@
+{ "projects": [{
+    "name": "Pimax: The World's First 8K VR Headset",
+    "artist": "Pimax 8K VR",
+    "description": "Pimax 8K allows users to experience VR with Peripheral vision while solving the problem of screen door effect and motion sickness.",
+    "goal": "200000",
+    "fundingPlans": "Pledge $599 or more and recieve the First 8K Ever! Tip: If you already have Steam VR or HTC Vive base stations and controllers, get this reward.Supports single base station for 360-degree positional tracking"
+    }, {
+    "name": "Folklore: The Affliction (2nd Printing)",
+    "manager": "Greenbrier Games INC",
+    "description": "A cooperative/solo adventure board game of mystery, fear, and dark fantasy.",
+    "goal": "30000",
+    "fundingPlans": "Pledge $30 or more and recieve Folklore The Affliction: Adventure Creation Kit, Folklore The Affliction: Nightmare Adventures, and an EXCLUSIVE Metal Leader Token!"
+      }, {
+    "name": "War Room: A Larry Harris Game",
+    "manager": "Nightingale Games LLC",
+    "description": "Larry Harris, renowned Axis & Allies designer, and Nightingale Games present WAR ROOM, a deluxe global World War II board game for 2-6.",
+    "goal": "150000",
+    "fundingPlans": "Pledge $149 or more and recieve War Room: A Larry Harros Game, all of the stretch goals, and free shipping!"
+  }]
+}
