@@ -11,13 +11,15 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { ClarityModule } from "clarity-angular";
 import { ProjectListComponent } from './project-list/project-list.component';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { ProjectDetailComponent } from './project-detail/project-detail.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ProjectListComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    ProjectDetailComponent
   ],
   imports: [
     BrowserModule,
