@@ -13,6 +13,8 @@ import { FirebaseListObservable } from 'angularfire2/database';
 export class ProjectListComponent implements OnInit {
   projects: FirebaseListObservable<any[]>;
   currentRoute: string = this.router.url;
+
+  filterByGoal: string = 'allProjects';
   constructor(
     private projectService: ProjectService,
     private router: Router,
@@ -25,6 +27,10 @@ export class ProjectListComponent implements OnInit {
 
   goToDetailPage(clickedProject) {
     this.router.navigate(['projects', clickedProject.$key]);
+  }
+
+  onChange(optionFromMenu) {
+    this.filterByGoal = optionFromMenu;
   }
 
 }

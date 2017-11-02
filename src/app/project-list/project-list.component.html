@@ -1,6 +1,12 @@
 <h1>Projects</h1>
 
-<div *ngFor="let project of projects | async" class="panel panel-default">
+<select (change)="onChange($event.target.value)" class="form-control form-control-lg">
+  <option value="all">View All Projects</option>
+  <option value="expensive">Projects with a Goal Greater Than 10000</option>
+  <option value="cheap">Projects with a Goal Less Than 10000</option>
+</select>
+
+<div *ngFor="let project of projects | async | funding:filterByGoal" class="panel panel-default">
   <div class="panel-body">
     <h3 (click)="goToDetailPage(project)">{{project.name}}</h3>
   </div>

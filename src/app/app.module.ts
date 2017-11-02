@@ -13,6 +13,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { ProjectDetailComponent } from './project-detail/project-detail.component';
 import { EditProjectComponent } from './edit-project/edit-project.component';
 import { AdminComponent } from './admin/admin.component';
+import { FundingPipe } from './funding.pipe';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { AdminComponent } from './admin/admin.component';
     WelcomeComponent,
     ProjectDetailComponent,
     EditProjectComponent,
-    AdminComponent
+    AdminComponent,
+    FundingPipe
   ],
   imports: [
     BrowserModule,
