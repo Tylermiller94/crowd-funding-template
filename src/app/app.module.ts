@@ -12,6 +12,7 @@ import { ProjectListComponent } from './project-list/project-list.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { ProjectDetailComponent } from './project-detail/project-detail.component';
 import { EditProjectComponent } from './edit-project/edit-project.component';
+import { AdminComponent } from './admin/admin.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { EditProjectComponent } from './edit-project/edit-project.component';
     ProjectListComponent,
     WelcomeComponent,
     ProjectDetailComponent,
-    EditProjectComponent
+    EditProjectComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,

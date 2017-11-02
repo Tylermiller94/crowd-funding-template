@@ -9,7 +9,7 @@ import { ProjectService } from '../project.service';
   providers: [ProjectService]
 })
 export class EditProjectComponent implements OnInit {
-  @Input() selected;
+  @Input() selectedProject;
   constructor(private projectService: ProjectService) { }
 
   ngOnInit() {
