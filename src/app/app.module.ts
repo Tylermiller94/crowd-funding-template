@@ -11,6 +11,7 @@ import { ClarityModule } from "clarity-angular";
 import { ProjectListComponent } from './project-list/project-list.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { ProjectDetailComponent } from './project-detail/project-detail.component';
+import { EditProjectComponent } from './edit-project/edit-project.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { ProjectDetailComponent } from './project-detail/project-detail.componen
     AppComponent,
     ProjectListComponent,
     WelcomeComponent,
-    ProjectDetailComponent
+    ProjectDetailComponent,
+    EditProjectComponent
   ],
   imports: [
     BrowserModule,
